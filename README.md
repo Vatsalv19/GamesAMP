@@ -9,6 +9,19 @@
 - 📱 Fully responsive layout
 - 🎯 Pagination for navigating through games easily
 
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](./screenshots/home.png)
+
+### 🕹️ Game Details
+![Game Details](./screenshots/gamedetails.png)
+
+### 🔐 Login Page
+![Login](./screenshots/authentication.png)
+
+
   ## 🛠️ Tech Stack
 
 | Tech         | Purpose                          |
