@@ -1,0 +1,97 @@
+
+.sidebar {
+
+    top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     width: 100%;
+     margin-right: 160px;
+  }
+  
+  .sidebar .card-header {
+    font-weight: 600;
+    background-color: #010120e9;
+    color: white;
+  }
+  
+  .game-card {
+    height: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    overflow: hidden;
+  }
+  
+  .game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  .game-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .favorite-btn {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+  }
+  
+  .favorite-btn.favorited {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .game-meta {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .star-icon {
+    color: #ffc107;
+    margin-right: 5px;
+  }
+  
+  .game-tags {
+    margin-top: 10px;
+  }
+  

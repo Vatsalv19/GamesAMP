@@ -1,0 +1,16 @@
+
+.main-content {
+    padding: 20px;
+   
+  }
+  
+  .sidebar-col {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .sidebar {
+      position:relative;
+    }
+  }
+  

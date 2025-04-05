@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh; 
+    padding: 2rem;
+    text-align: center;
+ 
+  }
+  
+  .auth-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .auth-container p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+  
+  }
+  
+  .auth-container .clerk-sign-in, 
+  .auth-container .clerk-sign-up {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .auth-container button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    background-color: #010120e9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .auth-container button:hover {
+    background-color: #0056b3;
+  }
+  

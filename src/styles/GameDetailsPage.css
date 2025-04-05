@@ -1,0 +1,89 @@
+/* styles/GameDetailsPage.css */
+.game-details-page {
+    padding: 20px 0;
+  }
+  
+  .back-button {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #212529;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .back-button svg {
+    margin-right: 5px;
+  }
+  
+  .back-button:hover {
+    color: #0d6efd;
+  }
+  
+  .related-games-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .related-games-section h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .related-games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .related-games-grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+  .favorite-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  .favorite-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .favorite-btn:active {
+    transform: scale(0.95);
+  }
+  
+  .favorite-btn.favorited {
+    background-color: #28a745;
+  }
+  
+  .favorite-btn.favorited:hover {
+    background-color: #218838;
+  }
+  
+  .icon-filled,
+  .icon-outline {
+    font-size: 1.2rem;
+  }
+  
+  .icon-filled {
+    color: rgb(255, 255, 255);
+  }
+  
+  .icon-outline {
+    color: rgb(255, 255, 255);
+  }
+  

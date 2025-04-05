@@ -1,0 +1,123 @@
+/* styles/GameDetails.css */
+.game-details {
+    padding: 20px 0;
+  }
+  
+  .game-header {
+    margin-bottom: 20px;
+  }
+  
+  .game-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0 20px;
+  }
+  
+  .release-date, .rating {
+    display: flex;
+    align-items: center;
+    color: #6c757d;
+  }
+  
+  .star-icon {
+    color: #ffc107;
+    margin-right: 5px;
+  }
+  
+  .favorite-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #dee2e6;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .favorite-btn:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .favorite-btn.favorited {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+  }
+  
+  .screenshots-carousel {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .screenshots-carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .featured-image {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-description {
+    margin-bottom: 30px;
+  }
+  
+  .game-description h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .game-info-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .info-section {
+    margin-bottom: 20px;
+  }
+  
+  .info-section:last-child {
+    margin-bottom: 0;
+  }
+  
+  .info-section h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .system-requirements {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .requirements-toggle {
+    margin-bottom: 10px;
+  }
+  
+  .similar-games-section {
+    margin-top: 40px;
+  }
+  
+  .similar-games-section h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,138 @@
+/* styles/Pagination.css */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* styles/GameDetails.css */
+  .game-details {
+    padding: 20px 0;
+  }
+  
+  .game-header {
+    margin-bottom: 20px;
+  }
+  
+  .game-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .game-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .release-date, .rating {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .favorite-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .favorite-btn.favorited {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .screenshots-carousel {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .screenshots-carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .featured-image {
+    border-radius: 8px;
+    margin-bottom: 30px;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .game-description {
+    margin-bottom: 30px;
+  }
+  
+  .game-description h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .game-info-card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-info-card .card-header {
+    font-weight: 600;
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .info-section {
+    margin-bottom: 20px;
+  }
+  
+  .info-section h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .metacritic-score {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+  
+  .system-requirements {
+    margin-bottom: 20px;
+  }
+  
+  .system-requirements h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .requirements-section {
+    margin-bottom: 15px;
+  }
+  
+  .requirements-section h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  

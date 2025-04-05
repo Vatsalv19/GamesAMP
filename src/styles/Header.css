@@ -1,0 +1,31 @@
+    
+.header {
+    background-color: #010120e9 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 40px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* styles/SearchBar.css */
+  .search-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .search-container .form-control {
+    border-radius: 20px;
+    padding-left: 15px;
+  }

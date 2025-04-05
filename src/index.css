@@ -1,0 +1,12 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
